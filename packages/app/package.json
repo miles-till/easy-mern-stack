@@ -1,0 +1,38 @@
+{
+  "name": "easy-mern-stack-client",
+  "version": "1.0.0",
+  "author": "Miles Till",
+  "license": "MIT",
+  "description": "Client side - React app scaffolded with create-react-app.",
+  "keywords": [
+    "client",
+    "web",
+    "javascript",
+    "react"
+  ],
+  "main": "src/index.js",
+  "private": true,
+  "proxy": "http://localhost:5000/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "easy-mern-stack-shared": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "easy-mern-stack-shared",
+  "version": "1.0.0",
+  "author": "Miles Till",
+  "license": "MIT",
+  "description": "Shared resources between client and server.",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}

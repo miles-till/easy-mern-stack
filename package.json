@@ -1,0 +1,40 @@
+{
+  "name": "easy-mern-stack",
+  "version": "1.0.0",
+  "author": "Miles Till",
+  "license": "MIT",
+  "description": "Easy to use MERN stack using create-react-app for easy configuration.",
+  "keywords": [
+    "mern",
+    "full stack",
+    "sample",
+    "boilerplate",
+    "node",
+    "express",
+    "mongodb",
+    "react"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "client": "cd packages/app && yarn start",
+    "server": "cd packages/server && yarn start",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "start": "yarn dev",
+    "build": "yarn client-build && yarn server-build && node tools/build.js",
+    "client-add": "cd packages/app && yarn add",
+    "client-build": "cd packages/app && yarn run build",
+    "server-add": "cd packages/server && yarn add",
+    "server-build": "cd packages/server && yarn build",
+    "shared-add": "cd packages/shared && yarn add"
+  }
+}
