@@ -1,5 +1,7 @@
 # Easy MERN Stack
 
+![MERN](media/mern.png "MERN")
+
 An easy to use full-stack MERN project: [MongoDB](https://www.mongodb.com/), [Express](https://expressjs.com/), [React](https://reactjs.org/), [Node.js](https://nodejs.org/en/)
 
 Client React app scaffolded with [create-react-app](https://github.com/facebook/create-react-app)
