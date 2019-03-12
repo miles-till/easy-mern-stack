@@ -1,4 +1,4 @@
-# Easy MERN Stack
+# Easy MERN Stack <!-- omit in toc -->
 
 ![MERN](media/mern.png "MERN")
 
@@ -7,6 +7,18 @@ An easy to use full-stack MERN project: [MongoDB](https://www.mongodb.com/), [Ex
 Client React app scaffolded with [create-react-app](https://github.com/facebook/create-react-app)
 
 Monorepo project components (client, server, shared) integrated with [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+
+## Contents <!-- omit in toc -->
+- [Quick Start](#quick-start)
+  - [Configure](#configure)
+  - [Run](#run)
+  - [Deploy](#deploy)
+- [Yarn Scripts (package.json)](#yarn-scripts-packagejson)
+- [Project Structure](#project-structure)
+- [Client](#client)
+- [Server](#server)
+- [Development Tools](#development-tools)
+- [License](#license)
 
 ## Quick Start
 
@@ -57,6 +69,22 @@ _Note: In development the client app will be served by create-react-app (webpack
     ```
 
 4. Navigate your browser to http://localhost:5000
+
+## Yarn Scripts (package.json)
+
+I have included some helper scripts as part of the `package.json` to reduce the need to `cd` in and out of the client and server directories:
+
+| Script | Result |
+| --- | --- |
+| `yarn run client` | starts the client app |
+| `yarn run server` | starts the server |
+| `yarn start` | starts the server and client app concurrently |
+| `yarn client-build` | builds the client app |
+| `yarn server-build` | builds the server app |
+| `yarn build` | builds the server and client app, then copies both to the root build directory for deployment |
+| `yarn client-add <package>` | adds a package to the client app |
+| `yarn server-add <package>` | adds a package to the server |
+| `yarn shared-add <package>` | adds a package to the shared module |
 
 ## Project Structure
 
