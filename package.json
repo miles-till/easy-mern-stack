@@ -32,9 +32,12 @@
     "start": "yarn dev",
     "build": "yarn client-build && yarn server-build && node tools/build.js",
     "client-add": "cd packages/app && yarn add",
+    "client-remove": "cd packages/app && yarn remove",
     "client-build": "cd packages/app && yarn run build",
     "server-add": "cd packages/server && yarn add",
+    "server-remove": "cd packages/server && yarn remove",
     "server-build": "cd packages/server && yarn build",
-    "shared-add": "cd packages/shared && yarn add"
+    "shared-add": "cd packages/shared && yarn add",
+    "shared-remove": "cd packages/shared && yarn remove"
   }
 }

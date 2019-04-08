@@ -85,6 +85,9 @@ I have included some helper scripts as part of the `package.json` to reduce the 
 | `yarn client-add <package>` | adds a package to the client app |
 | `yarn server-add <package>` | adds a package to the server |
 | `yarn shared-add <package>` | adds a package to the shared module |
+| `yarn client-remove <package>` | removes a package from the client app |
+| `yarn server-remove <package>` | removes a package from the server |
+| `yarn shared-remove <package>` | removes a package from the shared module |
 
 ## Project Structure
 
