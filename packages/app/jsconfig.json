@@ -3,13 +3,9 @@
     "target": "ES6",
     "module": "commonjs",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./src/",
-    "paths": {
-      "*": [
-        "*"
-      ]
-    }
+    "baseUrl": "src"
   },
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "**/node_modules/*"

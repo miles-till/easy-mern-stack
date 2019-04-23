@@ -15,10 +15,10 @@
   "proxy": "http://localhost:5000/",
   "dependencies": {
     "axios": "^0.18.0",
+    "easy-mern-stack-shared": "^1.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
-    "easy-mern-stack-shared": "^1.0.0"
+    "react-scripts": "3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
