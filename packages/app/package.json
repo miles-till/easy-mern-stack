@@ -14,7 +14,7 @@
   "private": true,
   "proxy": "http://localhost:5000/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "0.19.0",
     "easy-mern-stack-shared": "^1.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
